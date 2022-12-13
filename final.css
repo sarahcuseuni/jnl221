@@ -28,6 +28,8 @@ img {
 figcaption {
 	color: darkgray;
 	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 p {
 	font-family: 'Poppins', sans-serif;
@@ -70,10 +72,19 @@ h3 {
         float: none;
     }
 	#image {
-		display: block; 
-		float: none;
-		margin-left: 10%;
+		display: inline-block; 
+		margin: 20%;
+		
+	} 
+
+	#figcaption {
+		position: absolute;
+		bottom: 2px;
+		left: 0;
+		background-color: lightpink;
+		width: 100%;
     }
+
     div#list {
     	display: block;
     	float: none;
